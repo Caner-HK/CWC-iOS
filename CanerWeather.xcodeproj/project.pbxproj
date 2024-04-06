@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98A029B92B93040100B7CC95 /* canerhkthank.caf in Resources */ = {isa = PBXBuildFile; fileRef = 98A029B82B93040100B7CC95 /* canerhkthank.caf */; };
+		98A029BD2B93051D00B7CC95 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A029BC2B93051D00B7CC95 /* AudioPlayerManager.swift */; };
+		98A340252B5CB4830032CE9C /* CanerWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A340242B5CB4830032CE9C /* CanerWeatherApp.swift */; };
+		98A340272B5CB4830032CE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A340262B5CB4830032CE9C /* ContentView.swift */; };
+		98A340292B5CB4860032CE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A340282B5CB4860032CE9C /* Assets.xcassets */; };
+		98A340362B5CB4860032CE9C /* CanerWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A340352B5CB4860032CE9C /* CanerWeatherTests.swift */; };
+		98A340402B5CB4860032CE9C /* CanerWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A3403F2B5CB4860032CE9C /* CanerWeatherUITests.swift */; };
+		98A340422B5CB4860032CE9C /* CanerWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A340412B5CB4860032CE9C /* CanerWeatherUITestsLaunchTests.swift */; };
+		98F114622B89DB560073ADAF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F114612B89DB560073ADAF /* WebView.swift */; };
+		98F114642B89DFE70073ADAF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F114632B89DFE70073ADAF /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98A340322B5CB4860032CE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A340192B5CB4830032CE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A340202B5CB4830032CE9C;
+			remoteInfo = CanerWeather;
+		};
+		98A3403C2B5CB4860032CE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98A340192B5CB4830032CE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A340202B5CB4830032CE9C;
+			remoteInfo = CanerWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98A029B82B93040100B7CC95 /* canerhkthank.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = canerhkthank.caf; sourceTree = "<group>"; };
+		98A029BC2B93051D00B7CC95 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		98A340212B5CB4830032CE9C /* CanerWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanerWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A340242B5CB4830032CE9C /* CanerWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanerWeatherApp.swift; sourceTree = "<group>"; };
+		98A340262B5CB4830032CE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98A340282B5CB4860032CE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A340312B5CB4860032CE9C /* CanerWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanerWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A340352B5CB4860032CE9C /* CanerWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanerWeatherTests.swift; sourceTree = "<group>"; };
+		98A3403B2B5CB4860032CE9C /* CanerWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanerWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A3403F2B5CB4860032CE9C /* CanerWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanerWeatherUITests.swift; sourceTree = "<group>"; };
+		98A340412B5CB4860032CE9C /* CanerWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanerWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98D245BE2B5D1333002CA1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98F114612B89DB560073ADAF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		98F114632B89DFE70073ADAF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A3401E2B5CB4830032CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A3402E2B5CB4860032CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A340382B5CB4860032CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98A340182B5CB4830032CE9C = {
+			isa = PBXGroup;
+			children = (
+				98A340232B5CB4830032CE9C /* CanerWeather */,
+				98A340342B5CB4860032CE9C /* CanerWeatherTests */,
+				98A3403E2B5CB4860032CE9C /* CanerWeatherUITests */,
+				98A340222B5CB4830032CE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A340222B5CB4830032CE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A340212B5CB4830032CE9C /* CanerWeather.app */,
+				98A340312B5CB4860032CE9C /* CanerWeatherTests.xctest */,
+				98A3403B2B5CB4860032CE9C /* CanerWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A340232B5CB4830032CE9C /* CanerWeather */ = {
+			isa = PBXGroup;
+			children = (
+				98A029B82B93040100B7CC95 /* canerhkthank.caf */,
+				98D245BE2B5D1333002CA1FC /* Info.plist */,
+				98A340242B5CB4830032CE9C /* CanerWeatherApp.swift */,
+				98A340262B5CB4830032CE9C /* ContentView.swift */,
+				98A340282B5CB4860032CE9C /* Assets.xcassets */,
+				98F114612B89DB560073ADAF /* WebView.swift */,
+				98F114632B89DFE70073ADAF /* LocationManager.swift */,
+				98A029BC2B93051D00B7CC95 /* AudioPlayerManager.swift */,
+			);
+			path = CanerWeather;
+			sourceTree = "<group>";
+		};
+		98A340342B5CB4860032CE9C /* CanerWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				98A340352B5CB4860032CE9C /* CanerWeatherTests.swift */,
+			);
+			path = CanerWeatherTests;
+			sourceTree = "<group>";
+		};
+		98A3403E2B5CB4860032CE9C /* CanerWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98A3403F2B5CB4860032CE9C /* CanerWeatherUITests.swift */,
+				98A340412B5CB4860032CE9C /* CanerWeatherUITestsLaunchTests.swift */,
+			);
+			path = CanerWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A340202B5CB4830032CE9C /* CanerWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A340452B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeather" */;
+			buildPhases = (
+				98A3401D2B5CB4830032CE9C /* Sources */,
+				98A3401E2B5CB4830032CE9C /* Frameworks */,
+				98A3401F2B5CB4830032CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanerWeather;
+			productName = CanerWeather;
+			productReference = 98A340212B5CB4830032CE9C /* CanerWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98A340302B5CB4860032CE9C /* CanerWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A340482B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeatherTests" */;
+			buildPhases = (
+				98A3402D2B5CB4860032CE9C /* Sources */,
+				98A3402E2B5CB4860032CE9C /* Frameworks */,
+				98A3402F2B5CB4860032CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A340332B5CB4860032CE9C /* PBXTargetDependency */,
+			);
+			name = CanerWeatherTests;
+			productName = CanerWeatherTests;
+			productReference = 98A340312B5CB4860032CE9C /* CanerWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98A3403A2B5CB4860032CE9C /* CanerWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A3404B2B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeatherUITests" */;
+			buildPhases = (
+				98A340372B5CB4860032CE9C /* Sources */,
+				98A340382B5CB4860032CE9C /* Frameworks */,
+				98A340392B5CB4860032CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98A3403D2B5CB4860032CE9C /* PBXTargetDependency */,
+			);
+			name = CanerWeatherUITests;
+			productName = CanerWeatherUITests;
+			productReference = 98A3403B2B5CB4860032CE9C /* CanerWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A340192B5CB4830032CE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					98A340202B5CB4830032CE9C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					98A340302B5CB4860032CE9C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 98A340202B5CB4830032CE9C;
+					};
+					98A3403A2B5CB4860032CE9C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 98A340202B5CB4830032CE9C;
+					};
+				};
+			};
+			buildConfigurationList = 98A3401C2B5CB4830032CE9C /* Build configuration list for PBXProject "CanerWeather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 98A340182B5CB4830032CE9C;
+			productRefGroup = 98A340222B5CB4830032CE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A340202B5CB4830032CE9C /* CanerWeather */,
+				98A340302B5CB4860032CE9C /* CanerWeatherTests */,
+				98A3403A2B5CB4860032CE9C /* CanerWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A3401F2B5CB4830032CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A029B92B93040100B7CC95 /* canerhkthank.caf in Resources */,
+				98A340292B5CB4860032CE9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A3402F2B5CB4860032CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A340392B5CB4860032CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A3401D2B5CB4830032CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F114642B89DFE70073ADAF /* LocationManager.swift in Sources */,
+				98A029BD2B93051D00B7CC95 /* AudioPlayerManager.swift in Sources */,
+				98F114622B89DB560073ADAF /* WebView.swift in Sources */,
+				98A340272B5CB4830032CE9C /* ContentView.swift in Sources */,
+				98A340252B5CB4830032CE9C /* CanerWeatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A3402D2B5CB4860032CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A340362B5CB4860032CE9C /* CanerWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A340372B5CB4860032CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A340402B5CB4860032CE9C /* CanerWeatherUITests.swift in Sources */,
+				98A340422B5CB4860032CE9C /* CanerWeatherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98A340332B5CB4860032CE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A340202B5CB4830032CE9C /* CanerWeather */;
+			targetProxy = 98A340322B5CB4860032CE9C /* PBXContainerItemProxy */;
+		};
+		98A3403D2B5CB4860032CE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98A340202B5CB4830032CE9C /* CanerWeather */;
+			targetProxy = 98A3403C2B5CB4860032CE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98A340432B5CB4860032CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A340442B5CB4860032CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A340462B5CB4860032CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanerWeather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caner Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CWC通过定位服务获得您的位置信息，为您提供精确天气信息。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "0.0.2-Pre";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98A340472B5CB4860032CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CanerWeather/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Caner Weather";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "CWC通过定位服务获得您的位置信息，为您提供精确天气信息。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "0.0.2-Pre";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98A340492B5CB4860032CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanerWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CanerWeather";
+			};
+			name = Debug;
+		};
+		98A3404A2B5CB4860032CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanerWeather.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CanerWeather";
+			};
+			name = Release;
+		};
+		98A3404C2B5CB4860032CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanerWeather;
+			};
+			name = Debug;
+		};
+		98A3404D2B5CB4860032CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NCQ5SP3RL2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.caner.CanerWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CanerWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A3401C2B5CB4830032CE9C /* Build configuration list for PBXProject "CanerWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A340432B5CB4860032CE9C /* Debug */,
+				98A340442B5CB4860032CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A340452B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A340462B5CB4860032CE9C /* Debug */,
+				98A340472B5CB4860032CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A340482B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A340492B5CB4860032CE9C /* Debug */,
+				98A3404A2B5CB4860032CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A3404B2B5CB4860032CE9C /* Build configuration list for PBXNativeTarget "CanerWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A3404C2B5CB4860032CE9C /* Debug */,
+				98A3404D2B5CB4860032CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A340192B5CB4830032CE9C /* Project object */;
+}
