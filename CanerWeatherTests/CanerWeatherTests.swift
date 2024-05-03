@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import CanerWeather
+@testable import CanerWeather
 
 final class CanerWeatherTests: XCTestCase {
 
