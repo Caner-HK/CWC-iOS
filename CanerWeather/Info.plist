@@ -7,7 +7,5 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Caner Weather Channel需要您的地理位置信息为您提供准确的天气预报服务。您的信息将会被安全处理且不会被储存。</string>
 </dict>
 </plist>

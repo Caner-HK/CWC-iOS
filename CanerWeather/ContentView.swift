@@ -15,20 +15,21 @@ struct ContentView: View {
     private var audioPlayerManager = AudioPlayerManager()
 
     var body: some View {
+
         TabView {
             // 如果有定位数据，则显示带有定位参数的WebView
             if let location = locationManager.currentLocation {
                 WebView(url: URL(string: "https://weather.caner.hk/?location=\(location.latitude),\(location.longitude)")!)
                     .tabItem {
-                        Image(systemName: "globe")
-                        Text("天气")
+                        Image(systemName: "cloud.fill")
+                        Text("天气/Weather")
                     }
             } else {
                 // 如果没有定位数据，则显示默认的WebView
                 WebView(url: URL(string: "https://weather.caner.hk")!)
                     .tabItem {
-                        Image(systemName: "globe")
-                        Text("天气")
+                        Image(systemName: "cloud.sun.fill")
+                        Text("天气/Weather")
                     }
                     .onAppear {
                         // 如果定位服务被拒绝，则显示弹窗
@@ -37,7 +38,7 @@ struct ContentView: View {
                         }
                     }
                     .alert(isPresented: $showingAlert) {
-                        Alert(title: Text("提示"), message: Text("💦您没有授予位置信息权限，我们将通过您的IP地址自动判断您的位置。您可以前往设置重新开启定位权限。"), dismissButton: .default(Text("好的😅")))
+                        Alert(title: Text("提示/Notes"), message: Text("💦 您没有授予位置信息权限，我们将通过您的IP地址自动判断您的位置。您可以前往设置重新开启定位权限。/Without geolocation permit, we have to use IP address to know your location."), dismissButton: .default(Text("好的/Okay 😅")))
                     }
             }
             
@@ -71,19 +72,23 @@ struct ContentView: View {
                         .font(.title)
                         .foregroundColor(.blue)
                         .padding()
-                        .background(Color.gray.opacity(0.2))
-                        .cornerRadius(10)
+                        .background(Color.gray.opacity(0.1))
+                        .cornerRadius(13)
                 }
                 
                 Spacer() // 再次使用Spacer来平衡空间
                 
                 // 版权信息和构建信息
                 VStack {
-                    Text("© Caner HK 2024 - All Rights Reserved.")
+                    Text("CWC is designed and built by Caner HK.")
                         .font(.footnote)
                     Text("This is a preview version of CWC iOS App.")
                         .font(.footnote)
-                    Text("Version 0.0.2-Pre. Build by Kent Ye.")
+                    Text("Version 0.0.3. Built with Swift & SwiftUI.")
+                        .font(.footnote)
+                    Text(" Coded by Kent Ye. Built by Scott Xia.")
+                        .font(.footnote)
+                    Text("© Caner HK 2024 - All Rights Reserved.")
                         .font(.footnote)
                 }
                 .padding() // 添加一些内边距
@@ -92,7 +97,7 @@ struct ContentView: View {
             }
             .tabItem {
                 Image(systemName: "person.fill")
-                Text("我的")
+                Text("关于/About")
             }
         }
     }

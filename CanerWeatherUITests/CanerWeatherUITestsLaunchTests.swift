@@ -2,7 +2,7 @@
 //  CanerWeatherUITestsLaunchTests.swift
 //  CanerWeatherUITests
 //
-//  Created by 张雪莲 on 2024/1/21.
+//  Created by Kent Ye on 2024/1/21.
 //
 
 import XCTest
