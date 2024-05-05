@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9880E36F2BE7F97800396E94 /* libswiftRemoteMirror.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9880E36E2BE7F97800396E94 /* libswiftRemoteMirror.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9880E3712BE7F98B00396E94 /* CreateML in Frameworks */ = {isa = PBXBuildFile; fileRef = 9880E3702BE7F98B00396E94 /* CreateML */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		98A029B92B93040100B7CC95 /* canerhkthank.caf in Resources */ = {isa = PBXBuildFile; fileRef = 98A029B82B93040100B7CC95 /* canerhkthank.caf */; };
 		98A029BD2B93051D00B7CC95 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A029BC2B93051D00B7CC95 /* AudioPlayerManager.swift */; };
 		98A340252B5CB4830032CE9C /* CanerWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A340242B5CB4830032CE9C /* CanerWeatherApp.swift */; };
@@ -46,7 +45,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				9880E36F2BE7F97800396E94 /* libswiftRemoteMirror.dylib in Frameworks */,
-				9880E3712BE7F98B00396E94 /* CreateML in Frameworks */,
 			);
 			name = Frameworks;
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +361,7 @@
 				DEVELOPMENT_TEAM = NCQ5SP3RL2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -428,6 +427,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
