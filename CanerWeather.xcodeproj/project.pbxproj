@@ -53,7 +53,6 @@
 
 /* Begin PBXFileReference section */
 		9880E36E2BE7F97800396E94 /* libswiftRemoteMirror.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftRemoteMirror.dylib; sourceTree = "<group>"; };
-		9880E3702BE7F98B00396E94 /* CreateML */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = CreateML; sourceTree = "<group>"; };
 		98A029B82B93040100B7CC95 /* canerhkthank.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = canerhkthank.caf; sourceTree = "<group>"; };
 		98A029BC2B93051D00B7CC95 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
 		98A340212B5CB4830032CE9C /* CanerWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanerWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +97,6 @@
 		98A340182B5CB4830032CE9C = {
 			isa = PBXGroup;
 			children = (
-				9880E3702BE7F98B00396E94 /* CreateML */,
 				9880E36E2BE7F97800396E94 /* libswiftRemoteMirror.dylib */,
 				98A340232B5CB4830032CE9C /* CanerWeather */,
 				98A340342B5CB4860032CE9C /* CanerWeatherTests */,
