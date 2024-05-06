@@ -86,7 +86,7 @@ struct ContentView: View {
                         .font(.footnote)
                     Text("Version 0.0.3. Built with Swift & SwiftUI.")
                         .font(.footnote)
-                    Text(" Coded by Kent Ye. Built by Scott Xia.")
+                    Text("Many thanks to 『G.H.O.S.T』@MacApp 分享頻道")
                         .font(.footnote)
                     Text("© Caner HK 2024 - All Rights Reserved.")
                         .font(.footnote)
