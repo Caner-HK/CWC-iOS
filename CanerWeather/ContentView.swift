@@ -80,8 +80,14 @@ struct ContentView: View {
                 
                 // 版权信息和构建信息
                 VStack {
-                    Text("CWC is designed and built by Caner HK.")
-                        .font(.footnote)
+                    HStack(spacing: 0) {
+                                    Text("CWC is designed and built by ")
+                                        .font(.footnote)
+                                    Link("Caner HK", destination: URL(string: "https://caner.hk")!)
+                                        .font(.footnote)
+                                    Text(".")
+                                        .font(.footnote)
+                                }
                     Text("This is a preview version of CWC iOS App.")
                         .font(.footnote)
                     Text("Version 0.0.3. Built with Swift & SwiftUI.")
