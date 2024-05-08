@@ -27,7 +27,7 @@ struct WebView: UIViewRepresentable {
         // Set custom User-Agent then load URL
         webView.evaluateJavaScript("navigator.userAgent") { (result, error) in
             if let userAgent = result as? String {
-                webView.customUserAgent = "CanerWeatherIOS/0.0.3-TF " + userAgent
+                webView.customUserAgent = "CanerWeatherIOS/0.0.3b70-TF " + userAgent
                 let request = URLRequest(url: self.url)
                 webView.load(request)
             }
