@@ -1,4 +1,6 @@
 # CWC-iOS
-Caner Weather Channel iOS XCode Project
+### Caner Weather Channel iOS XCode Project
 
-[Join TestFlight](https://testflight.apple.com/join/TmCmrv50)
+[Join TestFlight Link](https://testflight.apple.com/join/V6YAT05R)
+
+[Contact Enjie](mailto:kent@caner.hk)
